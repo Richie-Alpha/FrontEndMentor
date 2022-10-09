@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding:0;
+}
+body {
+    background: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+.component {
+    margin: 6rem auto;
+    padding: 18px 15px;
+    background: white;
+    width: 15.7rem;
+    height: 26rem; 
+    border-radius: 20px;
+}
+.component-image,.component-text,.component-text1 {
+    margin:auto;
+    display: block;
+    text-align: center
+}
+.component-image {
+    border-radius: 10px;
+    width: 15.5rem;
+    height: 15rem
+}
+.component-text {
+    margin-top: .6rem;
+    padding: 3px;
+    color: hsl(212, 45%, 89%);
+}
+.component-text1 {
+    font-size:23px;
+    margin-top: 1.5rem;
+    font-weight: 700;
+}
